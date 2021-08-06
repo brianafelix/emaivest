@@ -7,11 +7,11 @@ const Sidebar= ({SidebarOpen, closeSidebar }) =>{
         <div className="Sidebar__title">
             <div className="Sidebar__img">
                 <img src={logo} alt="logo"/>
-                <h1>EMARP Solucoes</h1>
+                <h1>EMARPE Soluçoes</h1>
             </div>
             <i 
             onClick={() => closeSidebar()} 
-            className="fa fa-times"
+            className="bi bi-x-square-fill"
             id="SidebarIcon"
             aria-hidden="true"
             ></i>

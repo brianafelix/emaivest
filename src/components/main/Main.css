@@ -1,7 +1,6 @@
 Main{
 background: #f3f4f6;
-grid-area: auto;
-overflow-y: auto;
+
 }
 
 .Main__container {
@@ -39,7 +38,7 @@ margin:20px 0;
 
 }
 
-.cards {
+.card{
 display:flex;
  flex-direction: column;
 justify-content: space-around;
@@ -181,7 +180,7 @@ border-radius: 5px;
 font-size: 14px;   
 }
 
-@media only sreen and (max-width:855px){
+@media only sreen and (max-width:480px){
     .Main__cards{
     grid-template-columns: 1fr;
     gap: 10px;

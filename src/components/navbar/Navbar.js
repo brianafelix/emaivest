@@ -1,4 +1,4 @@
-import avatar from '../../assets/avatar.svg.png';
+  import avatar from '../../assets/avatar.svg.png';
 import './Navbar.css';
 const Navbar =({SidebarOpen, openSidebar})=>{
 return(

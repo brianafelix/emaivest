@@ -7,7 +7,7 @@ const Main=()=>{
           <div className=" Main__title">
              <img src={hello} alt="hello"/> 
              <div className="Main__greeting">
-                 <h1>Ola EMARP</h1>
+                 <h1>Olá EMARPE</h1>
                 <p>Bem vindo ao seu painel</p>
              </div>
               </div> 
