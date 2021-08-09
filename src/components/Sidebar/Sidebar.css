@@ -2,7 +2,7 @@
   position: fixed;
   width: 240px;
   height: 100%;
-  background: #020509;
+  background: #020814;
   padding: 20px;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
@@ -73,9 +73,10 @@
   font-weight: 700;
 }
 
-.sidebar-inactive .Sidebar__link > a {
+.sidebar-inactive .Sidebar__link > h6{
   display: none;
 }
+
 
 .sidebar-inactive .Sidebar__link > a {
   display: none;

@@ -81,7 +81,7 @@ const Navbar = ({ SidebarOpen, openSidebar }) => {
           </ul>
           <form
             className="input-group float-right"
-            style={{ width: "30%", marginTop: "20px" }}
+            style={{ width: "25%", marginTop: "20px" }}
           >
             <label className="input-group-text " for="inputGroupSelect01">
               <i
