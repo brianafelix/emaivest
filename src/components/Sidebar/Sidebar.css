@@ -13,14 +13,9 @@
 }
 
 .s-container {
-  margin-left: 240px;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
-}
-
-.s-container.inactive {
   margin-left: 80px;
 }
+
 .Sidebar__title {
   display: flex;
   justify-content: space-between;
@@ -34,7 +29,7 @@
 }
 .Sidebar__title > div > img {
   width: 55px;
-  object-fit: contain;
+  height: 55px;
   border-radius: 50%;
 }
 .Sidebar__title > div > h1 {
@@ -60,6 +55,15 @@
   border-radius: 3px;
   margin-bottom: 5px;
 }
+
+.Sidebar__link:hover {
+  cursor: pointer;
+}
+
+.Sidebar__link.hr:hover {
+  cursor: default;
+}
+
 .active_menu_link {
   background: rgba(161, 121, 62, 0.3);
   color: #ffffff;
@@ -93,11 +97,18 @@
   margin-right: 10px;
   font-size: 18px;
 }
+
+.Sidebar__link > i:hover {
+  color: #e6b250;
+}
+
 .Sidebar__logout {
   margin-top: 20px;
   padding: 10px;
-  color: #e65061;
+  color: #fff;
+  cursor: pointer;
 }
+
 .Sidebar__logout > a {
   text-decoration: none;
   color: #e65061;
@@ -108,6 +119,10 @@
 .Sidebar__logout > i {
   margin-right: 10px;
   font-size: 18px;
+}
+
+.Sidebar__logout:hover {
+  color: #e65061;
 }
 
 .Sidebar-responsive {

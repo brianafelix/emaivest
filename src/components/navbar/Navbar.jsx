@@ -91,8 +91,7 @@ const Navbar = ({ SidebarOpen, openSidebar }) => {
             </label>
             <select className="form-select" id="inputGroupSelect01">
               <option selected>Jesus Falcao</option>
-              <option selected>Marcio Quiteque</option>
-              <option selected>Jesus Falcao</option>
+              <option selected>Sair</option>
             </select>
           </form>
         </div>

@@ -11,12 +11,8 @@ const App = () => {
   return (
     <>
       {" "}
-      <Sidebar
-        onCollapse={(inactive) => {
-          setInactive(inactive);
-        }}
-      />
-      <div className={`s-container ${inactive ? "inactive" : ""}`}>
+      <Sidebar />
+      <div className={`s-container`}>
         <Navbar />
         <Main />
       </div>
