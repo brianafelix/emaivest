@@ -94,8 +94,29 @@ const Navbar = ({ SidebarOpen, openSidebar }) => {
                 <option selected>Jesus Falcao</option>
                 <option selected>Sair</option>
               </select>
+<<<<<<< HEAD
             </form>
           </div>
+=======
+            </li>
+          </ul>
+          <form
+            className="input-group float-right"
+            style={{ width: "25%", marginTop: "20px" }}
+          >
+            <label className="input-group-text " for="inputGroupSelect01">
+              <i
+                style={{ fontSize: "20px" }}
+                className="bi bi-person-circle"
+              ></i>
+            </label>
+            <select className="form-select" id="inputGroupSelect01">
+              <option selected>Jesus Falcao</option>
+              <option selected>Marcio Quiteque</option>
+              <option selected>Jesus Falcao</option>
+            </select>
+          </form>
+>>>>>>> 627449b0c1559ac742c916c52222e5da4cdfd0aa
         </div>
       </nav>
       <div style={{ marginTop: "10px" }}>
